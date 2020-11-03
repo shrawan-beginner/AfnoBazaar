@@ -1,0 +1,112 @@
+/* :root {
+  --primary-color: #f59aae;
+  --text-color: #5e7ef4;
+  --monts: "Montserrat", sans-serif;
+  --ubu: "Ubuntu", sans-serif;
+} */
+
+  /* Class Selectors */
+   .site-title{
+     font-family: "Ubuntu";
+     font-size: 2.5rem;
+     font-weight: bold;
+   }
+   .container-fluid{
+     padding: 2% 15%;
+   }
+   .primary-color {
+     background-color: #f59aae;
+     padding: 0 10rem;
+     color:#000;
+   }
+   .header-links a{
+     text-decoration: none;
+     color: #000;
+   }
+   .header-links a:hover{
+     color:#fff;
+   }
+   .nav {
+     padding: 0.8em 0;
+   }
+   .navbar-nav .active{
+     margin-left: 6.5rem;
+   }
+   .navbar-nav .nav-link{
+     font-size: 1em;
+     color: #5e7ef4 !important;
+   }
+   .navbar-nav .nav-item .nav-link{
+     padding: 0 1.5em;
+   }
+   .navbar-nav .basket-icon {
+     margin-right: 6.5rem !important;
+   }
+   .mid-section {
+     text-align: center;
+     padding:2em 5em;
+     color: #000;
+     background-color: #f59aae;
+   }
+   .title-image {
+     width: 35%;
+     /* padding: 0 0 5rem; */
+     position: relative;
+     left: 100px;
+     right: 15%;
+   }
+   .explore-button{
+     margin: 5% 3% 5% 0;
+     color: #000;
+     border-color: #000;
+   }
+   .btn:hover{
+     background-color: #000;
+     border-color: #000;
+   }
+   .card {
+     margin: 2rem;
+     padding: 2em;
+     transition: transform 0.5s;
+   }
+
+   .card:hover {
+     transform: translateY(-5px);
+   }
+   .aboutus-section {
+     text-align: center;
+     background-color: #ccbca1;
+   }
+   .text-muted {
+     text-decoration: none;
+   }
+
+  /* Element Selectors */
+  body {
+    background-color: #f7e5ca;
+  }
+  h1 {
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-size: 2.5em;
+  }
+  h3{
+    font-family: 'Ubuntu';
+    font-size: 1.5em;
+    line-height: 1;
+  }
+  footer p{
+    text-align: center;
+  }
+
+  @media (max-width: 1028px) {
+
+  .title-image {
+    position: static;
+  }
+}
